@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.example.emspdemo.repository")
+@MapperScan("com.example.emspdemo.repository.mapper")
 public class EMspDemoApplication {
 
 	public static void main(String[] args) {

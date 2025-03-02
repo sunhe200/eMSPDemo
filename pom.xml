@@ -121,9 +121,15 @@
 						</goals>
 						<configuration>
 							<excludes>
-								<!-- 排除 domain 和 config 下的所有类 -->
-								<exclude>com/example/emspdemo/domain/**</exclude>
+								<exclude>com/example/emspdemo/application/command/**</exclude>
+								<exclude>com/example/emspdemo/application/query/**</exclude>
 								<exclude>com/example/emspdemo/config/**</exclude>
+								<exclude>com/example/emspdemo/domain/event/**</exclude>
+								<exclude>com/example/emspdemo/domain/enums/**</exclude>
+								<exclude>com/example/emspdemo/domain/vo/**</exclude>
+								<exclude>com/example/emspdemo/presentation/dto/**</exclude>
+								<exclude>com/example/emspdemo/repository/po/**</exclude>
+								<exclude>com/example/emspdemo/repository/mapper/**</exclude>
 							</excludes>
 						</configuration>
 					</execution>
